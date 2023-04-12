@@ -72,18 +72,9 @@ public class UserDetailsServlet extends BaseServlet {
             writer.printf(TEMPLATE, userString);
         }
 
-        // 2. Печать
 
-
-//        writer.printf(TEMPLATE, userString);
-
-//        writer.printf(TEMPLATE, "Hello");
 
     }
 
-//    @Override
-//    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-//
-//        resp.sendRedirect("/users");
-//    }
+
 }
