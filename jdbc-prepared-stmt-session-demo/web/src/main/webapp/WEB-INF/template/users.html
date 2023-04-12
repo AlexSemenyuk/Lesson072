@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Home</title>
+    <link rel='stylesheet' href="resources/css/pico.min.css">
+    <link rel='stylesheet' href="resources/css/style1.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+</head>
+<body>
+<main class='container'>
+    <div class="home">
+         <a class='but-done' role='button' href='/'>Home</a>
+    </div>
+    <div class='tasks'>
+        <div class='addid'>
+            <h2 class="h">Find user by ID</h2>
+            <form method="get">
+                <div class="reg">
+                    <label class="label-input" for="id">Input ID</label>
+                    <input class="input-text" id="id" type="number" name="id" placeholder="Input users id"/>
+                </div>
+                <input class="but-submit" type="submit" value="Submit"/>
+            </form>
+        </div>
+        <div class="cap">
+            <span class='itemid'>ID</span>
+            <span class='itemlogin'>Login</span>
+            <span class='itempassword'>Password</span>
+            <span class='itemcreated'>Created</span>
+            <span class='itemmodified'>Modified</span>
+        </div>
+        %s
+    </div>
+    <div>
+
+    </div>
+</main>
+</body>
+</html>
